@@ -44,6 +44,9 @@ public class FacadeGoodDesign {
     final AuthService authService = new AuthService();
     final SongLoader songLoader = new SongLoader();
     final AudioPlayer audioPlayer = new AudioPlayer();
-    SpotifyFacade spotifyFacade = new SpotifyFacade();
+    final SpotifyFacade spotifyFacade = new SpotifyFacade(authService, songLoader, audioPlayer);
+    final String userId = "1234";
+    final String songId = "4321";
+    spotifyFacade.playSong(userId, songId);
   }
 }
