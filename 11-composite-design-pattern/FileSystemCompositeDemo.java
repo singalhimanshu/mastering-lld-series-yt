@@ -45,7 +45,7 @@ class Directory implements FileSystemItem {
   public void print(String indent) {
     System.out.println(indent + "Directory: " + this.name);
     for (FileSystemItem item : children) {
-      item.print(indent + "");
+      item.print(indent + " ");
     }
   }
 
