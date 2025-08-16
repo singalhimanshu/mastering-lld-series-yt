@@ -19,6 +19,9 @@
 8. configurable pricing for type of vehicle and/or parking spot type and different rates for different durations. (first hour x price, further hours y price).
 9. paymentReceipt can be accepted via credit card/upi/cash.
 
+## UML:
+![parking-lot-uml][./parking-lot-uml.png]
+
 ## Entities:
 ### EntryGate
 - id: string
