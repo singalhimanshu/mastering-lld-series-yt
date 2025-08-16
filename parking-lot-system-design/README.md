@@ -20,7 +20,7 @@
 9. paymentReceipt can be accepted via credit card/upi/cash.
 
 ## UML:
-![parking-lot-uml][./parking-lot-uml.png]
+![parking-lot-uml][parking-lot-system-design/parking-lot-uml.png]
 
 ## Entities:
 ### EntryGate
